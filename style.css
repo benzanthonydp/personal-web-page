@@ -50,13 +50,25 @@ html {
     background-color: #0099cc;
 }
 
+/* Default footer styles */
 .footer {
     background-color: #0099cc;
     color: #ffffff;
     text-align: center;
-    font-size: 12px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+    .footer {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
 
 .image-container {
     float: left;

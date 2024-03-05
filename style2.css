@@ -1,0 +1,88 @@
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table header */
+th {
+   
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style table rows */
+td {
+    padding: 5px;
+    text-align: left;
+   
+}
+
+.header-row {
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black; 
+}
+th:nth-child(n + 3):nth-child(-n + 7) {
+    text-align: center;
+}
+td:nth-child(n + 3):nth-child(-n + 7) {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #9933cc;
+    color: white;
+    border: 1px solid #9933cc;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .pagination-btn {
+    cursor: pointer;
+}
+
+
